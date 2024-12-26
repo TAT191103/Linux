@@ -1,1 +1,11 @@
-bla bla gì đó về ssh
+SSH: là giao thức mạng được mã hóa bảo mật kết nối giữa máy trạm và server.
+
+SSH Client -> SSH Server
+
+commant connect:
+* which ssh : kiểm tra cài đặt ssh, hiển thị đường dẫn đến tệp thực thi ssh.
+* ssh UserName@IPAddress hoặc UserName@DomainName : kết nối với server.
+* ssh -p 2222 UserName@IPAddress : cũng vẫn là kết nối với server nhưng nó chỉ định port cụ thể ở đây là 2222 nếu k thì nó sẽ dùng port cụ thể là 22 (đổi port để bảo mật hơn chắc thế :>>).
+* sudo apt dist-upgrade (lệnh này có quan trọng k nhể) : cài đặt các gói phần mềm mới và gỡ các gói cũ.
+
+
