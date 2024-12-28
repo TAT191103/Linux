@@ -1,0 +1,8 @@
+*nginx: máy chủ web.
+*sudo apt install nginx: cài nginx.
+*sudo systemctl start nginx: Khởi động dịch vụ.
+*sudo systemctl enable nginx: Kích hoạt tự động khởi động cùng hệ thống.
+*sudo systemctl status nginx: Kiểm tra trạng thái.
+*/etc/nginx/nginx.conf: đường dẫn đến file cấu hình chính của nginx.
+*/etc/nginx/sites-available/: đường dẫn đến folder cấu hình các virtual host.
+*/var/www/html: nếu không cấu hình trước thì đường dẫn này sẽ là đường dẫn mặc định sau khi cài nginx.
