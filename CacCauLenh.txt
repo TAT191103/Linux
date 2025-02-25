@@ -1,0 +1,25 @@
+- pwd: cho biết vị trí hiện tại đang đứng ở đâu.
+- whoami: cho biết đang đăng nhập trong phiên với user nào.
+- cd + (đường dẫn): di chuyển (back ngược lại thì cd ..).
+- ls + (đường dẫn): xem các nội dung có trong thư mục theo đường dẫn.
+- ls -a + (đường dẫn): hiện các file bị ẩn.
+- ls -t + (đường dẫn): hiện các thư mục đã được sắp xếp theo thời gian từ mới nhất đến cũ nhất.
+- ls -l + (đường dẫn): hiện các thư mục theo dạng danh sách.
+- ls -lta +(đường dẫn): hiện các thư mục (bao gồm thư mục bị ẩn) theo danh sách và sắp xếp theo thời gian từ mới đến cũ.
+- mkdir + (tên thư mục): tạo 1 thư mục.
+- mkdir -p + (đường dẫn các thư mục muốn tạo): tạo cùng lúc nhiều thư mục.
+- touch + (tên file): tạo file.
+- rm + (tên file): xóa file.
+- rm -r + (đường dẫn hoặc tên thư mục): nếu là đường dẫn nó sẽ xóa thư mục ở cuối đường dẫn.
+- rm -rf + (đường dẫn hoặc tên thư mục): nếu là đường dẫn nó sẽ xóa thư mục ở cuối đường dẫn (lưu ý: thư mục sẽ xóa mà không cần hỏi).
+- cp -r + (thư mục muốn copy) + (địa chỉ nơi muốn copy đến): copy thư mục.
+- cp + (thư mục muốn copy) + (địa chỉ nơi muốn copy đến): copy file.
+- mv + (đường dẫn file muốn copy) + (đổi tên hoặc là . để di chuyển file đến vị trí đang đứng): áp dụng cho cả file và thư mục.
+- echo "..." > (tên file): ghi nội dung vào trong file nếu chưa có file đó thì tự tạo file theo tên file.
+- echo "..." >> (tên file): ghi nội dung vào trong file ở dòng bên dưới.
+- cat + (tên file): xem nội dung trong file.
+- history: thể hiện các câu lệnh đã gõ.
+- tail -n 1 + (tên file): xem một dòng của file.
+- tail -n 1 + (tên file) > (tên file): lấy một dòng ở file đầu rồi ghi vào file sau.
+- tail -f + (tên của file): xem dữ liệu thời gian thực.
+
