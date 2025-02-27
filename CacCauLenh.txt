@@ -1,5 +1,7 @@
 - pwd: cho biết vị trí hiện tại đang đứng ở đâu.
 - whoami: cho biết đang đăng nhập trong phiên với user nào.
+- sudo -i: chuyển thành user có quyền cao nhất.
+- nano /etc/netplan/(tab cho nó nhanh :))): chỉnh lại ip của server có thể là chỉnh thành ip tĩnh.
 - cd + (đường dẫn): di chuyển (back ngược lại thì cd ..).
 - ls + (đường dẫn): xem các nội dung có trong thư mục theo đường dẫn.
 - ls -a + (đường dẫn): hiện các file bị ẩn.
@@ -22,4 +24,10 @@
 - tail -n 1 + (tên file): xem một dòng của file.
 - tail -n 1 + (tên file) > (tên file): lấy một dòng ở file đầu rồi ghi vào file sau.
 - tail -f + (tên của file): xem dữ liệu thời gian thực.
+- free -m: kiểm tra trạng thái ram đang sử dụng bao nhiêu.
+- df -h /: kiểm tra server còn trống bao nhiêu GB.
+- top (thoát bấm ctrl + c): task manager của linux :))).
+- sudo hostnamectl set-hostname + (tên mới): đổi tên server (lưu ý: cần reset mới áp dụng được tên mới).
+- sudo reboot: khởi động lại server.
 
+ 
